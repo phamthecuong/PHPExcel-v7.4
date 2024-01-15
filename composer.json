@@ -1,0 +1,24 @@
+{
+    "name": "cuongptdev52/php-excel",
+    "description": "A simple PHP package",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "*",
+        "ext-xml": "*",
+        "ext-xmlwriter": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "recommend": {
+        "ext-zip": "*",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "PHPExcel": "Classes/"
+        }
+    },
+    "license": "MIT"
+}
